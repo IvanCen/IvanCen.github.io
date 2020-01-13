@@ -1,0 +1,16 @@
+@import url('_font-weight_bold/intro__stat_font-weight_bold.css');
+
+.intro__stat {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    .intro__stat {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

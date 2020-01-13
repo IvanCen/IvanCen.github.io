@@ -1,0 +1,6 @@
+@import url('_hover/link_hover.css');
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}

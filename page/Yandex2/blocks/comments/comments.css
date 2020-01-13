@@ -1,0 +1,13 @@
+@import url('__autor/comment__autor.css');
+@import url('__container/comments__container.css');
+@import url('__image/comment__image.css');
+@import url('__item/comment__item.css');
+@import url('__quote/comment__quote.css');
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1184px;
+    margin: auto;
+}

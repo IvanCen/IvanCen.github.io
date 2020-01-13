@@ -1,0 +1,13 @@
+.additional__item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 284px;
+    height: 330px;
+    margin-right: 16px;
+}
+
+.additional__item:last-of-type {
+    margin: 0;
+}

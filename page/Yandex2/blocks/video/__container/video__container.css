@@ -1,0 +1,24 @@
+.video__container {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .video__container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 699px) {
+    .video__container {
+        flex-direction: column;
+        width: 70%;
+    }
+}
+
+@media (max-width: 499px) {
+    .video__container {
+        flex-direction: column;
+    }
+}

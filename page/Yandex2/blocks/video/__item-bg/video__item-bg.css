@@ -1,0 +1,21 @@
+.video__item-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 323px;
+    width: 100%;
+    border-radius: 5px;
+    background: #000000;
+    opacity: 0.5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+    .video__item-bg {
+        height: 90%;
+    }
+}
