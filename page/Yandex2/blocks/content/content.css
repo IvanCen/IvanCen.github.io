@@ -1,6 +1,0 @@
-@import url('./_theme/_dark/content_theme_dark.css');
-
-.content {
-    display: flex;
-    flex-direction: column;    
-}

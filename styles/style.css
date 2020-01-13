@@ -557,6 +557,9 @@ link:hover {
   text-align: center;
   width: 100%;
 }
+.portfolio__image-title_apple {
+  color: black;
+}
 
 .grid figure {
   position: relative;
@@ -566,7 +569,6 @@ link:hover {
   width: 80%;
   max-width: 1200px;
   height: auto;
-  background: #3085a3;
   text-align: center;
   cursor: pointer;
 }
@@ -595,9 +597,6 @@ link:hover {
   height: 100%;
 }
 
-figure.effect-apollo {
-  background: #3498db;
-}
 
 figure.effect-apollo img {
   opacity: 0.95;
