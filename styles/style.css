@@ -864,7 +864,7 @@ figure.effect-apollo:hover p {
   .portfolio__image-title {
     font-size: 32px;
   }
-
+  
   .about {
     background-color: #f6f6f6;
     min-height: 100%;
@@ -989,9 +989,7 @@ figure.effect-apollo:hover p {
     transform: translate(0%);
   }
 
-  .portfolio__image-title {
-    display: none;
-  }
+
 
   .description__image-container {
     height: 350px;
