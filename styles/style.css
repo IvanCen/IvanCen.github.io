@@ -164,7 +164,9 @@ body::before {
 
 a {
   text-decoration: none;
-  border: none;
+}
+a:hover {
+  text-decoration: none;
 }
 
 .button-up {
@@ -271,7 +273,7 @@ link:hover {
 .title {
   font-size: 45px;
   font-family: "Gilroy-Bold";
-  margin: 50px 0;
+  margin: 50px 0 20px;
 }
 
 .description__title {
