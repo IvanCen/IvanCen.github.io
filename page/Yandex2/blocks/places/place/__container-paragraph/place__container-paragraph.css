@@ -1,0 +1,9 @@
+@import url("__paragraph/place__paragraph.css");
+
+.place__container-paragraph {
+    display: flex;
+    flex-direction: column;
+    max-width: 464px;
+    width: 100%;
+    
+}

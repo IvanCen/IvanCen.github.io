@@ -1,0 +1,39 @@
+@import url('__image-bg/cover__image-bg.css');
+@import url('__subtitle/cover__subtitle.css');
+@import url('__title/cover__title.css');
+
+.cover {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1184px;
+    width: 100%;
+    height: 594px;
+    margin: auto;
+    margin-bottom: 82px;
+}
+
+.cover:hover {
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in;
+    -webkit-transition: opacity 0.1s ease-in;
+    -moz-transition: opacity 0.1s ease-in;
+    -ms-transition: opacity 0.1s ease-in;
+    -o-transition: opacity 0.1s ease-in;
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .cover {
+        height: 450px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 499px) {
+    .cover {
+        height: 300px;
+        margin-bottom: 64px;
+    }
+}

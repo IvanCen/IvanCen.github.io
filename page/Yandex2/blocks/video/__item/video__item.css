@@ -1,0 +1,33 @@
+.video__item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    margin-right: 18px;
+    
+}
+
+.video__item:last-of-type {
+    margin: 0;
+}
+
+.video__item:hover {
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in;
+    -webkit-transition: opacity 0.1s ease-in;
+    -moz-transition: opacity 0.1s ease-in;
+    -ms-transition: opacity 0.1s ease-in;
+    -o-transition: opacity 0.1s ease-in;
+}
+
+@media (max-width: 1024px) {
+    .video__item {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video__item {
+        height: 230px;
+    }
+}

@@ -1,0 +1,5 @@
+@import url(_is-opened/popup__form_is-opened.css);
+.popup__form {
+  margin-top: 60px;
+  display: none;
+}

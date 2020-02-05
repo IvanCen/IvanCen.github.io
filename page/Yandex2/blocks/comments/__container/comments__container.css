@@ -1,0 +1,17 @@
+.comments__container {
+    display: flex;
+    
+}
+
+@media (max-width: 1240px) {
+    .comments__container {
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .comments__container {
+        margin: 0 3%;
+        flex-direction: column;
+    }
+}

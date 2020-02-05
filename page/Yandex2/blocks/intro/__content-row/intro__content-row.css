@@ -1,0 +1,6 @@
+@import url("__text/intro__text.css");
+
+.intro__content-row {
+    display: flex;
+
+}
