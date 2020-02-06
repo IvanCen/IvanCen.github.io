@@ -19,7 +19,7 @@ const userInfoJob = document.querySelector('.user-info__job');
 const loader = document.querySelector('.loader');
 const container = document.querySelector('.places-list');
 const option = {
-  baseUrl: 'http://95.216.175.5/cohort7/',
+  baseUrl: 'https://praktikum.tk/cohort7/',
   headers: {
     authorization: '06d98b9d-0650-4eb9-9bc3-34ae3e11679e',
     'Content-Type': 'application/json'
